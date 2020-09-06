@@ -34,7 +34,7 @@ export default {
     // ])
 
     // 2）、
-    //为了解决重名的问题，则则推荐以下写法
+    // 为了解决重名的问题，则则推荐以下写法
     ...mapGetters({
       rMsg: 'reverseMsg'
     })

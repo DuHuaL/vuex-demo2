@@ -37,7 +37,7 @@ export default {
   // 所以改造成以下方法
   computed: {
     // 组件本身的计算属性
-    test() {},
+    // test() {},
     // 映射的store中的数据
     ...mapState({
       num: 'count'
