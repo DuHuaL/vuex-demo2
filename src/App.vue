@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    <router-view/>
+    <coma></coma>
   </div>
 </template>
 
 <script>
+import coma from '@/components/coma';
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    coma
+  }
 };
 </script>
 
