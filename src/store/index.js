@@ -25,6 +25,12 @@ const store = new Vuex.Store({
     increate(state, payload) {
       state.count += payload.num;
     }
+  },
+  actions: {
+    // context是上下文，包括state，getters，mutations,,dispatch()方法是调用自己
+    setCount(context) {
+      console.log(context);
+    }
   }
 });
 export default store;
