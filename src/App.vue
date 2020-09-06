@@ -5,6 +5,7 @@
     <comc></comc>
     <comd></comd>
     <come></come>
+    <comf></comf>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import comb from '@/components/comb';
 import comc from '@/components/comc';
 import comd from '@/components/comd';
 import come from '@/components/come';
+import comf from '@/components/comf';
 export default {
   name: 'App',
   components: {
@@ -21,7 +23,8 @@ export default {
     comb,
     comc,
     comd,
-    come
+    come,
+    comf
   }
 };
 </script>
