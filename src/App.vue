@@ -12,6 +12,8 @@
     <comj></comj>
     <hr>
     <comk></comk>
+    <hr>
+    <comm></comm>
   </div>
 </template>
 
@@ -26,6 +28,7 @@ import comg from '@/components/comg';
 import comh from '@/components/comh';
 import comj from '@/components/comj';
 import comk from '@/components/comk';
+import comm from '@/components/comm';
 
 export default {
   name: 'App',
@@ -39,7 +42,8 @@ export default {
     comg,
     comh,
     comj,
-    comk
+    comk,
+    comm
   }
 };
 </script>

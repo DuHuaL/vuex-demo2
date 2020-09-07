@@ -1,4 +1,6 @@
 const modulej = {
+  // 开启命名空间
+  namespaced: true,
   state: {
     name: 'zs',
     age: 18
