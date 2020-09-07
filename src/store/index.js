@@ -1,9 +1,16 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-
+// 导入模块
+import modulej from './modules/modulej';
+import modulek from './modules/modulek';
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
+  // 注册模块
+  modules: {
+    modulej,
+    modulek
+  },
   state: {
     count: 1,
     msg: 'hello Vuex'
