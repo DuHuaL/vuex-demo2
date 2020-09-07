@@ -28,14 +28,12 @@ const store = new Vuex.Store({
   },
   actions: {
     // context是上下文，包括state，getters，mutations,,dispatch()方法是调用自己
-    setCount(context) {
+    setCount(context, payload) {
       // console.log(context);
-      setTimeout(() => {
-        context.commit({
-          type: 'increate',
-          num: 5
-        });
-      }, 2000);
+      context.commit({
+        type: 'increate',
+        num: payload.num
+      });
     }
   }
 });
